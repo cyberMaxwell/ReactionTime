@@ -22,10 +22,10 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>70</y>
-     <width>531</width>
-     <height>321</height>
+     <x>20</x>
+     <y>100</y>
+     <width>551</width>
+     <height>291</height>
     </rect>
    </property>
    <property name="palette">
@@ -133,7 +133,7 @@ background-color: gray;</string>
   <widget class="QLabel" name="labelTime">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>100</x>
      <y>40</y>
      <width>291</width>
      <height>21</height>
@@ -143,13 +143,13 @@ background-color: gray;</string>
     <string/>
    </property>
    <property name="alignment">
-    <set>Qt::AlignCenter</set>
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>100</x>
      <y>10</y>
      <width>321</width>
      <height>20</height>
@@ -159,13 +159,13 @@ background-color: gray;</string>
     <string>Click the start button, then wait for the red color and click on it.</string>
    </property>
    <property name="alignment">
-    <set>Qt::AlignCenter</set>
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
    </property>
   </widget>
   <widget class="QPushButton" name="startButton">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>20</x>
      <y>10</y>
      <width>75</width>
      <height>21</height>
@@ -181,14 +181,183 @@ background-color: gray;</string>
   <widget class="QLabel" name="labelRecord">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>40</y>
+     <x>20</x>
+     <y>70</y>
      <width>71</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
     <string>Record: 0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelAttempt1">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>0</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Attempt 1:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelAttempt2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>20</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Attempt 2:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelAttempt3">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>40</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Attempt 3:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelAttempt4">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>80</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Attempt 5:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelAttempt5">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>60</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Attempt 4:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="attempt1">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>0</y>
+     <width>47</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="attempt5">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>80</y>
+     <width>47</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="attempt4">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>60</y>
+     <width>47</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="attempt3">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>40</y>
+     <width>47</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="attempt2">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>20</y>
+     <width>47</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="averageText">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>70</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Average: </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="averageTimeLabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>47</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="restartButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Restart</string>
    </property>
   </widget>
  </widget>

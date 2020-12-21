@@ -16,6 +16,9 @@ public:
     //int GetMin() { return min; }
     //void SetMin(int value) { min = value; }
 
+    void OnClickRestartButton();
+    void CleanLabels();
+
     void OnClickStartButton();
     void ColorChange();
     void SetTime();
@@ -28,4 +31,13 @@ private:
     QElapsedTimer elapsedTimer;
     QTimer timer;
     int min = INT_MAX;
+    int attempt = 1;
+
+    int attempt1Time;
+    int attempt2Time;
+    int attempt3Time;
+    int attempt4Time;
+    int attempt5Time;
+
+    float average = 0;
 };
